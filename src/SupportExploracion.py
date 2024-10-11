@@ -33,3 +33,10 @@ def fill_year(df,year):
     df["año fiscal"].replace(np.nan,year,inplace=True)
     return
 
+def year_to_int(df):
+    df["año fiscal"] = df["año fiscal"].astype(int)
+    return
+
+def date_to_datetime(df):
+    df["fecha de registro"]= pd.to_datetime(df["fecha de registro"],errors="coerce")
+    return
