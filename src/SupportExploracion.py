@@ -6,7 +6,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def traducir(column):
-   
     traductor = {
     'CÓDIGO ÓRGÃO SUPERIOR': 'código del órgano superior',
     'NOME ÓRGÃO SUPERIOR': 'nombre del órgano superior',
