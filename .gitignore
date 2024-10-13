@@ -1,5 +1,7 @@
 #cosas y carpetas pa fuera
 /datos/output/no_subir
+.gitignore
+.gitattributes
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
