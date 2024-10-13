@@ -1,3 +1,6 @@
+#cosas y carpetas pa fuera
+/datos/output/no_subir
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
