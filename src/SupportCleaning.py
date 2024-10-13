@@ -81,3 +81,15 @@ def fill_missing_organo(df,diccionario,diccionario__nombre_organo):
     #Reemplazamos los nombres nulos volviendo a mirar el código recien añadido
     df["nombre del órgano"].fillna(df["código del órgano"].map(diccionario__nombre_organo), inplace=True)
     return
+
+def calcular_porcentaje(fila):
+    
+    if fila["valor previsto actualizado"] > 0:
+        operacion = (fila["valor ejecutado"] / fila["valor previsto actualizado"]) * 100
+        return operacion
+    elif fila["valor registrado"] > 0:
+        operacion = (fila["valor ejecutado"] / fila["valor registrado"]) * 100
+        return operacion
+    else:
+        return 0
+    
