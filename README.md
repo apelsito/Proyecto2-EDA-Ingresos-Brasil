@@ -8,16 +8,48 @@ Este proyecto analiza la ejecución de los ingresos públicos en Brasil entre 20
 
 Las visualizaciones 📈 proporcionan una comprensión clara de la distribución de los ingresos y revelan oportunidades para mejorar la planificación y gestión de los ingresos públicos en el futuro 💼.
 
-## Estructura del Proyecto
+## Estructura del Proyecto 🗂️
 Los archivos están estructurados de la siguiente forma:
 
         
-        ## 🗂️ Estructura del Proyecto
-
+        🗂️ Estructura del Proyecto🗂️
         ├── datos/               # Datos crudos y procesados
         ├    ├─ output/          # Excel Generado tras las fases de limpieza
         ├    ├─ raw/             # Datos entregados por el gobierno de Brasil
         ├── jupyter_notebooks/   # Notebooks de Jupyter con los trabajos realizados
         ├── src/                 # Scripts de procesamiento y correción de datos
-        ├── README.md            # Descripción del proyecto
-        
+        ├── README.md            # Descripción del proyecto      
+## Instalación y Requisitos 🛠️
+
+### Requisitos
+
+Para ejecutar este proyecto, asegúrate de tener instalado lo siguiente:
+
+- Python 3.x 🐍
+- Jupyter Notebook 📓
+- Bibliotecas de Python:
+  - `pandas` para manipulación de datos 🧹
+  - `numpy` para cálculos numéricos 🔢
+  - `matplotlib` y `seaborn` para visualización de datos 📊
+
+### Instalación 🛠️
+
+1. Navega al directorio del proyecto:
+
+   ```python
+    cd ejecucion-ingresos-brasil
+    ```
+2. Navega al directorio del proyecto:
+
+   ```python
+    python -m venv venv
+    source venv/bin/activate  # En Windows usa: venv\Scripts\activate
+    ```
+3. Instala las librerías necesarias
+
+   ```python
+    pip install pandas
+    pip install numpy
+    pip install matplotlib
+    pip install seaborn
+    ```
